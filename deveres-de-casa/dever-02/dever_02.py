@@ -62,7 +62,7 @@ def main():
 
     valores = [10, 100, 500, 1000]
 
-    print("Testes automáticos:")
+    print("Resultados do tempo de execução:")
 
     for n in valores:
         _, tempo_execucao = medir_tempo(n)
